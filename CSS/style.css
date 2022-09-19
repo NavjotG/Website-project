@@ -1,4 +1,36 @@
-a {
-    color: blue;
-    margin-right: 10px;
-  }
+html {
+    background: url(/img/Top-20-JDM-Cars-Of-All-Time-Otani-1995-180SX-1998-Skyline-25GT.jpg) no-repeat center fixed;
+    background-size: cover;
+}
+
+.bar {
+  color: #D5DCEC;
+  text-align: center;
+  background-color: #474B5B;
+  width: 135px;;
+  margin: auto;
+  padding: 10px;
+}
+
+a:visited {
+  color: #D5DCEC;
+}
+
+body {
+  margin: auto;
+  text-align: center;
+  padding: 0px 0px;
+}
+
+.title {
+  margin: 200px;
+}
+
+
+h1 {
+  color: #D5DCEC;
+}
+
+p {
+  color: #F4F3EE;
+}
