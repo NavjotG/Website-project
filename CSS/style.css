@@ -1,36 +1,72 @@
 html {
-    background: url(/img/Top-20-JDM-Cars-Of-All-Time-Otani-1995-180SX-1998-Skyline-25GT.jpg) no-repeat center fixed;
-    background-size: cover;
+  background: url(/img/Backgrounds-Jdm-Wallpapers-HD.webp) no-repeat center fixed;
+  background-size: cover;
 }
 
-.bar {
-  color: #D5DCEC;
-  text-align: left;
-  background-color: #474B5B;
-  width: 135px;;
-  margin: auto;
-  padding: 10px;
-}
 
-a:visited {
-  color: #D5DCEC;
-}
-
-body {
-  margin: auto;
-  text-align: center;
-  padding: 0px 0px;
+.info {
+  width: 1000px;
+  margin:auto;
+  margin-top: 15px;
+  background-color: rgba(178, 188, 214, 0.452);
 }
 
 .title {
-  margin: 200px;
+  margin: center;
+  text-align: center;
+  padding: 100px 50px;
+
 }
 
 
+.bar {
+  text-decoration: none;
+  font-family: fantasy;
+  font-size: 30px;
+  color: #0d0f1d;
+  word-spacing: 25px;
+  text-align: center;
+} 
+
+a:hover {
+  text-decoration: underline;
+}
+
 h1 {
-  color: #D5DCEC;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: rgb(117, 14, 14);
+  font-size: 60px;
 }
 
 p {
-  color: #F4F3EE;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+
+.quote {
+  font-size: 40px;
+}
+
+hr {
+  width: 900px;
+}
+
+h2 {
+  color: #800E13;
+  font-size: 40px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.who, .age, .occupation, .arrest {
+  color: #fda400;
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: center;
+  margin: auto;
+}
+
+img {
+  width: 600px;
+}
+
+
+
