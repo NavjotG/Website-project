@@ -2,3 +2,48 @@ html {
   background: url(/img/Backgrounds-Jdm-Wallpapers-HD.webp) no-repeat center fixed;
   background-size: cover;
 }
+
+.jail {
+  width: 400px;
+}
+
+.quiz {
+  width: 1000px;
+  margin: auto;
+  margin-top: 15px;
+  margin-bottom: 30px;
+  background-color: rgba(178, 188, 214, 0.452);
+  text-align: center;
+}
+
+p {
+  font-size: large;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+input{
+  width: 150px;
+}
+
+button {
+  background-color: rgb(209, 169, 57);
+  color: rgb(0, 0, 0);
+  font-family: monospace;
+  padding: 8px;
+  margin-bottom: 8px;
+  margin-top: 9px;
+  border-radius: 30px;
+  font-variant-caps: small-caps;
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif ;
+}
+
+button:hover {
+  background-color: rgb(226, 64, 36);
+  color: black;
+  cursor: pointer;
+}
+
+.link {
+  font-size: 100px
+}
