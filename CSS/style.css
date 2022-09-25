@@ -28,8 +28,14 @@ html {
   text-align: center;
 } 
 
+a {
+  color: #800E13;
+  text-decoration: none;
+}
+
 a:hover {
   text-decoration: underline;
+  color: #dd7b0b;
 }
 
 h1 {
