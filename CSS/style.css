@@ -23,7 +23,6 @@ html {
   text-decoration: none;
   font-family: fantasy;
   font-size: 30px;
-  color: #0d0f1d;
   word-spacing: 25px;
   text-align: center;
 } 
@@ -46,6 +45,7 @@ h1 {
 
 p {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: aliceblue;
 }
 
 .quote {
