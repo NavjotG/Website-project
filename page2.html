@@ -6,6 +6,7 @@
     <title>Quiz</title>
     <link href="css/style.css" rel="stylesheet" type="text/css" />
     <link href="css/page2.css" rel="stylesheet" type="text/css" />
+    <script defer src="main.js"></script>
   </head>
 
   <body>
@@ -22,24 +23,32 @@
       </div>
 
       <h2>Question 1</h2>
-      <p>What is Nagatas organization called? <input type="text" /></p>
+      <p>
+        What is Nagatas organization called?
+        <input id="org" type="text" value="" />
+      </p>
       <hr />
 
       <h2>Question 2</h2>
-      <p>When was Smokey born? <input type="text" /></p>
+      <p>When was Smokey born? <input id="born" type="text" value="" /></p>
       <hr />
 
       <h2>Question 3</h2>
-      <p>What is his occupation? <input type="text" /></p>
+      <p>What is his occupation? <input id="job" type="text" value="" /></p>
       <hr />
 
       <h2>Question 4</h2>
       <img class="jail" src="img/prision bars.webp" alt="jail" />
-      <p>When was he imprisoned? <input type="number" /></p>
+      <p>When was he imprisoned? <input id="jail" value="" type="text" /></p>
 
       <hr />
-      <button>Mark Quiz</button>
-      <p><strong>Score: ----/4 (----%)</strong></p>
+      <button id="button">Mark Quiz</button>
+      <p>
+        <strong
+          >Score: <span id="output">----</span>/4 (<span id="percent">----</span
+          >%)</strong
+        >
+      </p>
       <hr />
       <div class="link"></div>
       <p>
